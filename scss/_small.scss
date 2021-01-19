@@ -1,0 +1,84 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+/*----------- BODY --------------*/
+body {
+    font-size: 16px;
+    font-family: 'Poppins', Verdana, sans-serif;
+}
+
+
+/*----------- HEADER --------------*/
+.headerWrapper {
+    width: 100%;
+    background-color: $primary-blue;
+}
+header {
+    padding: .5rem 2%;
+    position: relative;
+}
+header figure {
+    margin: 0;
+}
+header img {
+    float: left;
+    height: 75px;
+}
+header a {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 0 0 .5rem 0;
+    text-decoration: none;
+}
+
+
+/*----------- NAVIGATION --------------*/
+.navWrapper {
+    width: 100%;
+    background-color: $secondary-blue;
+}
+nav ul li.active a {
+    text-decoration: underline;
+}
+
+
+/*----------- MAIN --------------*/
+main {
+    padding: 0 2%;
+    min-height: 10rem;
+    z-index: 1;
+}
+main h1 {
+    font-weight: $normal-font;
+    z-index: 1;
+}
+
+
+/*----------- FOOTER --------------*/
+footer {
+    background-color: $primary-blue;
+    color: #fff;
+    padding: .5rem 2%;
+    text-align: center;
+}
+footer a {
+    color: #fff;
+}
+footer a:visited {
+    color: #fff;
+}
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
