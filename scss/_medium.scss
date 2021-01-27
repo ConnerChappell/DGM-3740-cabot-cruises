@@ -9,6 +9,16 @@
 header h1 {
     font-size: 3rem;
 }
+header a {
+	display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 0 .5rem .5rem 0;
+    text-decoration: none;
+}
 
 
 /*----------- NAVIGATION --------------*/
@@ -70,7 +80,13 @@ nav {
 	
 // darkens the anchor of the current-menu-item 
 	li.current-menu-item a{background-color: rgba(0,0,0,0.25);}
-	
+}
+
+.searchBar {
+	position: relative;
+	margin-right: 0;
+	max-width: 250px;
+	width: 180px;
 }
 
 

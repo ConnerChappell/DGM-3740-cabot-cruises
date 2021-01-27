@@ -336,21 +336,47 @@ header img {
   height: 75px; }
 
 header a {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  color: #fff;
-  font-size: 1.5rem;
-  margin: 0 0 .5rem 0;
-  text-decoration: none; }
+  display: none; }
 
 /*----------- NAVIGATION --------------*/
 .navWrapper {
+  position: relative;
   width: 100%;
   background-color: #0da2d4; }
 
 nav ul li.active a {
   text-decoration: underline; }
+
+.searchBar {
+  max-width: 175px;
+  max-height: 35px;
+  position: absolute;
+  top: .5rem;
+  right: .5rem;
+  float: right;
+  background-color: #fff;
+  border: none; }
+
+.searchBar input {
+  border: none;
+  padding: 4px 0 4px 4px; }
+
+.searchBar button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  max-height: 35px;
+  float: right;
+  border: none;
+  padding: 4px 7.5px;
+  margin-right: 0;
+  background-color: #0054a0;
+  color: #fff;
+  cursor: pointer; }
+
+.searchBar button:hover {
+  background-color: #006fd3;
+  transition: background 0.3s linear; }
 
 /*----------- MAIN --------------*/
 main {
@@ -477,6 +503,16 @@ footer a:visited {
   header h1 {
     font-size: 3rem; }
 
+  header a {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 0 .5rem .5rem 0;
+    text-decoration: none; }
+
   /*----------- NAVIGATION --------------*/
   nav {
     background-color: #0da2d4; }
@@ -521,6 +557,12 @@ footer a:visited {
     nav li.current-menu-item a {
       background-color: rgba(0, 0, 0, 0.25); }
 
+  .searchBar {
+    position: relative;
+    margin-right: 0;
+    max-width: 250px;
+    width: 180px; }
+
   /*----------- MAIN --------------*/
   /*----------- FOOTER --------------*/ }
 /* end of media query */
@@ -531,6 +573,9 @@ footer a:visited {
 
   /*----------- BODY --------------*/
   /*----------- HEADER --------------*/
+  header a {
+    margin-right: 0; }
+
   /*----------- NAVIGATION --------------*/
   /*----------- MAIN --------------*/
   /*----------- FORM --------------*/
