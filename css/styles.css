@@ -785,6 +785,9 @@ footer a:visited {
 
   /*----------- BODY --------------*/
   /*----------- HEADER --------------*/
+  header {
+    padding: .5rem 0; }
+
   header a {
     margin-right: 0; }
 
