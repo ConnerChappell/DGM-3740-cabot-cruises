@@ -86,6 +86,14 @@ main h1 {
     z-index: 1;
 }
 
+picture {
+    position: relative;
+}
+picture div {
+    position: absolute;
+    bottom: 0;
+}
+
 
 /*----------- FOOTER --------------*/
 footer {
