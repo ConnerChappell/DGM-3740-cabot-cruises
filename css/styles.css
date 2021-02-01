@@ -729,7 +729,7 @@ footer a:visited {
   nav {
     background-color: #0da2d4; }
     nav ul {
-      margin: 0 0 0 2vw;
+      margin: 0;
       padding: 0; }
     nav ul > li {
       float: left;
