@@ -62,7 +62,31 @@
 <!-- CONTENT HERE -->
 <main>
     <!-- Image Slider -->
-    
+    <div class="mySlider">
+        <picture>
+            <source srcset="./images/square-slider1.jpg" media="(max-width: 35rem)">
+            <source srcset="./images/image-slider1.jpg" media="(min-width: 35rem)">
+            <img src="./images/image-slider1.jpg" alt="Slider Image 1">
+        </picture>
+
+        <picture>
+            <source srcset="./images/square-slider2.jpg" media="(max-width: 35rem)">
+            <source srcset="./images/image-slider2.jpg" media="(min-width: 35rem)">
+            <img src="./images/image-slider2.jpg" alt="Slider Image 2">
+        </picture>
+
+        <picture>
+            <source srcset="./images/square-slider3.jpg" media="(max-width: 35rem)">
+            <source srcset="./images/image-slider3.jpg" media="(min-width: 35rem)">
+            <img src="./images/image-slider3.jpg" alt="Slider Image 3">
+        </picture>
+
+        <picture>
+            <source srcset="./images/square-slider4.jpg" media="(max-width: 35rem)">
+            <source srcset="./images/image-slider4.jpg" media="(min-width: 35rem)">
+            <img src="./images/image-slider4.jpg" alt="Slider Image 4">
+        </picture>
+    </div>
     
 
 </main>
@@ -73,5 +97,19 @@
     </footer>
 
     <script src="./js/index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.mySlider').slick({
+                dots: true,
+                arrows: false,
+                infinite: true,
+                speed: 1500,
+                autoplay: true,
+                autoplaySpeed: 3000
+            });
+        });
+    </script>
 </body>
 </html>
