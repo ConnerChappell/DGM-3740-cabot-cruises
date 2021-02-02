@@ -1,4 +1,4 @@
-header, nav, main {
+header, nav, main, #infoFooter {
         max-width: 75rem;
         margin:auto;
 }
@@ -37,6 +37,14 @@ header a {
 }
 .roomArticle {
 	margin-top: 0;
+}
+
+#infoFooter {
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 1rem 0;
+}
+.column3 {
+        grid-column: 3;
 }
 
 

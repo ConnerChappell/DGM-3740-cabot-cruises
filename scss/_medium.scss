@@ -91,6 +91,7 @@ nav {
 
 
 /*----------- MAIN --------------*/
+// Blog Article Styles
 #blogDiv {
 	grid-template-columns: 1fr 1fr 1fr;
 	font-size: .9rem;
@@ -104,6 +105,17 @@ nav {
 	margin-top: 10px;
 }
 
+// Info Footer Styles
+#infoFooter {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.column2 {
+	width: 80%;
+}
+.column3 {
+	grid-column: 1 / span 2;
+}
 
 /*----------- FOOTER --------------*/
     
