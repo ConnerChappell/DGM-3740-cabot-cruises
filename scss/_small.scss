@@ -112,33 +112,30 @@ picture img {
     text-align: center;
     position: relative;
     transition: all .3s;
+    height: 40vw;
 }
 .blogArticle:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 .activityArticle {
     background-image: url(../images/activity-blog.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 140px;
 }
 .diningArticle {
     background-image: url(../images/dining-blog.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 140px;
 }
 .destinationArticle {
     background-image: url(../images/destination-blog.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 140px;
 }
 .roomArticle {
     background-image: url(../images/room-blog.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 140px;
 }
 .blogTitle {
     padding: .5rem 0;

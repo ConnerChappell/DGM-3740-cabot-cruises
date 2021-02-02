@@ -91,7 +91,18 @@ nav {
 
 
 /*----------- MAIN --------------*/
-
+#blogDiv {
+	grid-template-columns: 1fr 1fr 1fr;
+	font-size: .9rem;
+	margin-right: 0;
+}
+.blogArticle {
+	width: 31vw;
+	height: 31vw;
+}
+.roomArticle {
+	margin-top: 10px;
+}
 
 
 /*----------- FOOTER --------------*/

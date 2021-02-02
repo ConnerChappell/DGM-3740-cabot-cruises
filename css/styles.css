@@ -413,34 +413,31 @@ picture img {
 .blogArticle {
   text-align: center;
   position: relative;
-  transition: all .3s; }
+  transition: all .3s;
+  height: 40vw; }
 
 .blogArticle:hover {
-  transform: scale(1.1); }
+  transform: scale(1.05); }
 
 .activityArticle {
   background-image: url(../images/activity-blog.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 140px; }
+  background-size: cover; }
 
 .diningArticle {
   background-image: url(../images/dining-blog.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 140px; }
+  background-size: cover; }
 
 .destinationArticle {
   background-image: url(../images/destination-blog.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 140px; }
+  background-size: cover; }
 
 .roomArticle {
   background-image: url(../images/room-blog.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 140px; }
+  background-size: cover; }
 
 .blogTitle {
   padding: .5rem 0;
@@ -835,6 +832,18 @@ footer a:visited {
     width: 180px; }
 
   /*----------- MAIN --------------*/
+  #blogDiv {
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: .9rem;
+    margin-right: 0; }
+
+  .blogArticle {
+    width: 31vw;
+    height: 31vw; }
+
+  .roomArticle {
+    margin-top: 10px; }
+
   /*----------- FOOTER --------------*/ }
 /* end of media query */
 @media only screen and (min-width: 75rem) {
@@ -852,6 +861,22 @@ footer a:visited {
 
   /*----------- NAVIGATION --------------*/
   /*----------- MAIN --------------*/
+  .blogHeader {
+    margin: 2rem 1rem 0 0; }
+
+  #blogDiv {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 14px;
+    font-size: 1rem;
+    margin: 1rem 0 3rem 0; }
+
+  .blogArticle {
+    width: 290px;
+    height: 290px; }
+
+  .roomArticle {
+    margin-top: 0; }
+
   /*----------- FORM --------------*/
   /*----------- FOOTER --------------*/ }
 /* end of media query */
