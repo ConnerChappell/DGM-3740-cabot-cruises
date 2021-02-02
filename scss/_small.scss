@@ -116,6 +116,13 @@ picture img {
 }
 .blogArticle:hover {
     transform: scale(1.05);
+
+    .blogTitle {
+        background-color: rgba($color: $primary-blue, $alpha: 1.0);
+    }
+    .blogDate {
+        background-color: rgba($color: $primary-blue, $alpha: 1.0);
+    }
 }
 .activityArticle {
     background-image: url(../images/activity-blog.jpg);
@@ -140,12 +147,12 @@ picture img {
 .blogTitle {
     padding: .5rem 0;
     color: #fff;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba($color: $primary-blue, $alpha: .75);
 }
 .blogDate {
     padding: .5rem 0;
     color: #fff;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba($color: $primary-blue, $alpha: .75);
     position: absolute;
     bottom: 0;
     width: 100%;

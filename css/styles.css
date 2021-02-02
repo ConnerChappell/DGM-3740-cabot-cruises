@@ -418,6 +418,10 @@ picture img {
 
 .blogArticle:hover {
   transform: scale(1.05); }
+  .blogArticle:hover .blogTitle {
+    background-color: #0054a0; }
+  .blogArticle:hover .blogDate {
+    background-color: #0054a0; }
 
 .activityArticle {
   background-image: url(../images/activity-blog.jpg);
@@ -442,12 +446,12 @@ picture img {
 .blogTitle {
   padding: .5rem 0;
   color: #fff;
-  background-color: rgba(0, 0, 0, 0.5); }
+  background-color: rgba(0, 84, 160, 0.75); }
 
 .blogDate {
   padding: .5rem 0;
   color: #fff;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 84, 160, 0.75);
   position: absolute;
   bottom: 0;
   width: 100%; }
