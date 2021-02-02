@@ -509,7 +509,7 @@ picture img {
   padding: 2rem; }
 
 #socialBar i {
-  padding: 0 1rem;
+  padding: 0 .5rem;
   transition: all .4s; }
 
 #socialBar i:hover {
@@ -918,6 +918,9 @@ footer a:visited {
 
   .column3 {
     grid-column: 1 / span 2; }
+
+  #socialBar i {
+    padding: 0 1rem; }
 
   /*----------- FOOTER --------------*/ }
 /* end of media query */
