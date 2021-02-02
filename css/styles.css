@@ -395,9 +395,65 @@ picture {
 picture img {
   width: 100%; }
 
-picture div {
+.blogHeader {
+  margin: 3rem 0 0 .5rem; }
+
+#blogDiv {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin: 1rem .5rem;
+  font-size: .8rem; }
+
+#blogDiv a {
+  list-style: none;
+  text-emphasis: none;
+  text-decoration: none; }
+
+.blogArticle {
+  text-align: center;
+  position: relative;
+  transition: all .3s; }
+
+.blogArticle:hover {
+  transform: scale(1.1); }
+
+.activityArticle {
+  background-image: url(../images/activity-blog.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 140px; }
+
+.diningArticle {
+  background-image: url(../images/dining-blog.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 140px; }
+
+.destinationArticle {
+  background-image: url(../images/destination-blog.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 140px; }
+
+.roomArticle {
+  background-image: url(../images/room-blog.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 140px; }
+
+.blogTitle {
+  padding: .5rem 0;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5); }
+
+.blogDate {
+  padding: .5rem 0;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
   position: absolute;
-  bottom: 0; }
+  bottom: 0;
+  width: 100%; }
 
 /*----------- FOOTER --------------*/
 footer {
