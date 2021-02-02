@@ -501,6 +501,22 @@ picture img {
 .column2 form button:hover {
   cursor: pointer; }
 
+#socialBar {
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+  color: #333;
+  padding: 2rem; }
+
+#socialBar i {
+  padding: 0 1rem;
+  transition: all .4s; }
+
+#socialBar i:hover {
+  color: #0054a0;
+  cursor: pointer;
+  transform: scale(1.1); }
+
 /*----------- FOOTER --------------*/
 footer {
   background-color: #0054a0;
@@ -939,6 +955,9 @@ footer a:visited {
   #infoFooter {
     grid-template-columns: 1fr 1fr 1fr;
     padding: 1rem 0; }
+
+  .column2 {
+    width: 92.5%; }
 
   .column3 {
     grid-column: 3; }

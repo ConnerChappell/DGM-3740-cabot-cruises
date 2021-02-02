@@ -206,6 +206,23 @@ picture img {
     cursor: pointer;
 }
 
+// Social Bar Styles
+#socialBar {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    color: $accent;
+    padding: 2rem;
+}
+#socialBar i {
+    padding: 0 1rem;
+    transition: all .4s;
+}
+#socialBar i:hover {
+    color: $primary-blue;
+    cursor: pointer;
+    transform: scale(1.1);
+}
 
 /*----------- FOOTER --------------*/
 footer {
