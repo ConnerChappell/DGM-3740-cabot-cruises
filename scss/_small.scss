@@ -43,12 +43,12 @@ nav ul li.active a {
     text-decoration: underline;
 }
 .searchBar {
-    max-width: 175px;
+    // max-width: 175px;
     max-height: 35px;
     position: absolute;
     top: .5rem;
     right: .5rem;
-    float: right;
+    // float: right;
     background-color: #fff;
     border: none;
 }
@@ -61,7 +61,7 @@ nav ul li.active a {
     top: 0;
     right: 0;
     max-height: 35px;
-    float: right;
+    // float: right;
     border: none;
     padding: 4px 7.5px;
     margin-right: 0;

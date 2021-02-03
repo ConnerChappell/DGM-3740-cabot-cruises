@@ -349,12 +349,10 @@ nav ul li.active a {
   text-decoration: underline; }
 
 .searchBar {
-  max-width: 175px;
   max-height: 35px;
   position: absolute;
   top: .5rem;
   right: .5rem;
-  float: right;
   background-color: #fff;
   border: none; }
 
@@ -367,7 +365,6 @@ nav ul li.active a {
   top: 0;
   right: 0;
   max-height: 35px;
-  float: right;
   border: none;
   padding: 4px 7.5px;
   margin-right: 0;
@@ -891,7 +888,8 @@ footer a:visited {
       background-color: rgba(0, 0, 0, 0.25); }
 
   .searchBar {
-    position: relative;
+    position: absolute;
+    right: 0;
     margin-right: 0;
     max-width: 250px;
     width: 180px; }
