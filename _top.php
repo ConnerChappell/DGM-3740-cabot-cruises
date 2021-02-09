@@ -38,7 +38,7 @@
             </button>
     
             <ul id="primaryNav">
-                <li class="active"><a href="index.php">Home</a></li>
+                <li><a href="index.php">Home</a></li>
                 <li><a href="#">Cruises</a></li>
                 <li class="parent"><a href="#">Agents</a>
                     <ul>
