@@ -39,14 +39,14 @@
     
             <ul id="primaryNav">
                 <li><a href="index.php">Home</a></li>
-                <li><a href="#">Cruises</a></li>
+                <li><a href="cruises.html">Cruises</a></li>
                 <li class="parent"><a href="#">Agents</a>
                     <ul>
-                        <li><a href="#">Sally Rogers</a></li>
-                        <li><a href="#">Buddy Sorrell</a></li>
+                        <li><a href="agent1.html">Sally Rogers</a></li>
+                        <li><a href="agent2.html">Buddy Sorrell</a></li>
                     </ul>
                 </li>
-                <li><a href="#">Book</a></li> 
+                <li><a href="book.html">Book</a></li> 
             </ul>
 
             <form class="searchBar">

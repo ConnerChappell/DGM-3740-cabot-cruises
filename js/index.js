@@ -9,3 +9,6 @@ var x = document.getElementById('hamburgerBtn');
 x.onclick = toggleMenu; 
 
 
+
+// Adds active class to current menu item
+let navLink = document.querySelectorAll("#primaryNav a");
