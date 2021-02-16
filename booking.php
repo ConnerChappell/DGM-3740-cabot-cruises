@@ -64,7 +64,7 @@
             </label>
             <label class="topLabel">Zipcode <input type="number" name="zipcode"></label>
             <label class="topLabel">Phone* <input type="tel" name="phone" required></label>
-            <label class="topLabel">Email* <input type="email" name="email" required></label>
+            <label class="topLabel">Email* <input type="email" name="email" placeholder="800-123-4567" required></label>
             <label class="topLabel">Cruise Selection*
                 <select>
                     <option>-Please Select-</option>
