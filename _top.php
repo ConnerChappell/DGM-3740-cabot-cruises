@@ -46,7 +46,7 @@
                         <li><a href="agent2.php">Buddy Sorrell</a></li>
                     </ul>
                 </li>
-                <li><a href="book.html">Book</a></li> 
+                <li><a href="book.php">Book</a></li> 
             </ul>
 
             <form class="searchBar">
