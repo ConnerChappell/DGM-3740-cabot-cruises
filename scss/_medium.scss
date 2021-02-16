@@ -110,11 +110,16 @@ nav {
 
 /*----------- Cruises Page --------------*/
 .cruiseOption {
+	margin-left: 0;
 	display: grid;
+	gap: 10px;
 	grid-template-columns: 1fr 1fr 1fr;
 }
 .cruiseOption h3 {
 	margin-top: 0;
+}
+.cruiseOption img {
+	width: 350px;
 }
 .cruiseDescription {
 	grid-column: 2 / span 2;
@@ -122,6 +127,9 @@ nav {
 .cruiseDescription a {
 	display: flex;
 	justify-content: flex-end;
+}
+.cruiseDescription a button {
+	width: auto;
 }
 
 

@@ -76,4 +76,4 @@
         </a>
     </div>
 
-    <?php include '_bot.php'; ?>
+<?php include '_bot.php'; ?>

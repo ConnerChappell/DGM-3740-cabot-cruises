@@ -456,17 +456,23 @@ picture img {
 
 /*----------- Cruises Page --------------*/
 h2.cruisesHeader {
-  margin: 1rem 0 1rem .5rem; }
+  margin: 1rem 0 0 .5rem; }
 
 #cruisesDiv {
   margin: 1rem .5rem 2rem .5rem; }
 
+.cruiseOption {
+  margin-top: 1.5rem; }
+
 .cruiseOption h3 {
   margin-bottom: .5rem; }
 
+.cruiseOption img {
+  width: 100%; }
+
 .cruiseOption p {
   line-height: 1.5rem;
-  margin-top: 0; }
+  margin: 0 0 .5rem 0; }
 
 .cruiseDescription a {
   text-decoration: none;
@@ -477,7 +483,8 @@ h2.cruisesHeader {
   background-color: #0054a0;
   color: #fff;
   padding: .5rem 2rem;
-  border: none; }
+  border: none;
+  width: 100%; }
 
 .cruiseDescription a button:hover {
   background-color: #333;
@@ -940,11 +947,16 @@ footer a:visited {
 
   /*----------- Cruises Page --------------*/
   .cruiseOption {
+    margin-left: 0;
     display: grid;
+    gap: 10px;
     grid-template-columns: 1fr 1fr 1fr; }
 
   .cruiseOption h3 {
     margin-top: 0; }
+
+  .cruiseOption img {
+    width: 350px; }
 
   .cruiseDescription {
     grid-column: 2 / span 2; }
@@ -952,6 +964,9 @@ footer a:visited {
   .cruiseDescription a {
     display: flex;
     justify-content: flex-end; }
+
+  .cruiseDescription a button {
+    width: auto; }
 
   /*----------- FOOTER --------------*/
   #infoFooter {
