@@ -4,7 +4,7 @@
 
     <div class="agentDiv clearfix">
         <div class="agentImage">
-            <img src="/images/agent1.jpg" alt="Sally Rogers Portrait">
+            <img src="./images/agent1.jpg" alt="Sally Rogers Portrait">
         </div>
         <div class="agentPhone">
             <h4>Phone:</h4>
