@@ -42,8 +42,8 @@
                 <li><a href="cruises.php">Cruises</a></li>
                 <li class="parent"><a href="#">Agents</a>
                     <ul>
-                        <li><a href="agent1.html">Sally Rogers</a></li>
-                        <li><a href="agent2.html">Buddy Sorrell</a></li>
+                        <li><a href="agent1.php">Sally Rogers</a></li>
+                        <li><a href="agent2.php">Buddy Sorrell</a></li>
                     </ul>
                 </li>
                 <li><a href="book.html">Book</a></li> 
