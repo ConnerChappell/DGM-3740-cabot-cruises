@@ -60,11 +60,25 @@ nav {
 
 
 /*----------- Agent Pages --------------*/
+.bookingHeader {
+        margin: 1rem 0 0 0;
+    }
+#formContainer {
+        margin: 1rem 0;
+}
 .agentHeader {
 	margin: 1rem 0 0 0;
 }
 .agentDiv {
         margin: 0;
+}
+
+/*----------- Book a Cruise Page --------------*/
+form label.topLabel input, form label.topLabel select {
+	width: 35%;
+}
+#bookBtn {
+	width: 35%;
 }
 
 
