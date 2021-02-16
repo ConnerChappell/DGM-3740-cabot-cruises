@@ -4,7 +4,7 @@
 
     <div class="agentDiv clearfix">
         <div class="agentImage">
-            <img src="/images/agent1.jpg" alt="Sall Rogers Portrait">
+            <img src="/images/agent1.jpg" alt="Sally Rogers Portrait">
         </div>
         <div class="agentPhone">
             <h4>Phone:</h4>
@@ -16,7 +16,7 @@
         </div>
         <div class="agentSpecialization">
             <h4>Destination Specialization:</h4>
-            <p>Italy, Argentina, Hong Kong, Cancun, Alaska, California</p>
+            <p>Italy, Argentina, Hong Kong, Cancun, Alaska, California, Australia</p>
         </div>
         <div class="agentHours">
             <h4>Office Hours:</h4>
