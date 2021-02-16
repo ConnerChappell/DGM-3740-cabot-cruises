@@ -490,6 +490,25 @@ h2.cruisesHeader {
   background-color: #333;
   transition: background .4s; }
 
+/*----------- Agent Pages --------------*/
+.agentHeader {
+  margin: 1rem 0 1rem .5rem; }
+
+.agentDiv {
+  margin: 0 .5rem; }
+
+.agentImage {
+  width: 100%; }
+
+.agentImage img {
+  width: 100%; }
+
+.agentDiv h4 {
+  margin-bottom: 0; }
+
+.agentDiv p {
+  margin-top: .25rem; }
+
 /*----------- FOOTER --------------*/
 #infoFooterWrapper {
   width: 100%;
@@ -968,6 +987,19 @@ footer a:visited {
   .cruiseDescription a button {
     width: auto; }
 
+  /*----------- Agent Pages --------------*/
+  .agentDiv {
+    margin: 1rem .5rem; }
+
+  .agentImage {
+    float: right;
+    margin: 0 0 .5rem .5rem;
+    width: auto; }
+
+  .agentImage img {
+    height: 400px;
+    width: auto; }
+
   /*----------- FOOTER --------------*/
   #infoFooter {
     display: grid;
@@ -1031,6 +1063,13 @@ footer a:visited {
     grid-column: 3; }
 
   /*----------- Cruises Page --------------*/
+  /*----------- Agent Pages --------------*/
+  .agentHeader {
+    margin: 1rem 0 0 0; }
+
+  .agentDiv {
+    margin: 0; }
+
   /*----------- FORM --------------*/
   /*----------- FOOTER --------------*/ }
 /* end of media query */
