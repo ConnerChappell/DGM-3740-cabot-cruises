@@ -92,6 +92,7 @@ nav {
 
 
 /*----------- MAIN --------------*/
+/*----------- Home Page --------------*/
 // Blog Article Styles
 #blogDiv {
 	grid-template-columns: 1fr 1fr 1fr;
@@ -106,7 +107,26 @@ nav {
 	margin-top: 10px;
 }
 
-// Info Footer Styles
+
+/*----------- Cruises Page --------------*/
+.cruiseOption {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+.cruiseOption h3 {
+	margin-top: 0;
+}
+.cruiseDescription {
+	grid-column: 2 / span 2;
+}
+.cruiseDescription a {
+	display: flex;
+	justify-content: flex-end;
+}
+
+
+/*----------- FOOTER --------------*/
+ // Info Footer Styles
 #infoFooter {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
@@ -121,7 +141,4 @@ nav {
 // Social Bar Styles
 #socialBar i {
 	padding: 0 1rem;
-}
-
-/*----------- FOOTER --------------*/
-    
+}   
